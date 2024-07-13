@@ -1,5 +1,6 @@
 import Foundation
 
+@MainActor
 final class UserViewModel: ObservableObject {
         
     private let service = APIService()
